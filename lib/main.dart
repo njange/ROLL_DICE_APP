@@ -3,15 +3,17 @@ import 'package:flutter/widgets.dart';
 
 void main() {
   runApp(
-    MaterialApp(
+    const MaterialApp(
       home: Scaffold(
-        body: GradientContaniner(),
+        body: const GradientContaniner(),
       ),
     ),
   );
 }
 
 class GradientContaniner extends StatelessWidget {
+  const GradientContaniner({Key? key}) : super(key: key);
+
   @override
   Widget build(context){
     return Container(
