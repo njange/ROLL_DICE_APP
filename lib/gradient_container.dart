@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:first_app/text_styles.dart'
-
+import 'package:first_app/text_styles.dart';
 
 class GradientContaniner extends StatelessWidget {
   const GradientContaniner({Key? key}) : super(key: key);
@@ -17,13 +16,7 @@ class GradientContaniner extends StatelessWidget {
         begin: Alignment.topLeft,
         end: Alignment.bottomRight,
       )),
-      child: const Center(
-        child: const TextStyles()
-      ),
+      child: const Center(child: const TextStyles()),
     );
   }
 }
-
-
-
-
