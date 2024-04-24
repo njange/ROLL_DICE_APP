@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:first_app/text_styles.dart';
 
+const startAlignment = Alignment.topLeft;
+const endAlignment = Alignment.bottomRight;
 
 
 class GradientContaniner extends StatelessWidget {
-  const GradientContaniner({Key? key}) : super(key: key);
+  const GradientContaniner({super.key});
 
   @override
   Widget build(context) {
