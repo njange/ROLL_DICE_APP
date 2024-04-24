@@ -20,7 +20,7 @@ class GradientContaniner extends StatelessWidget {
         end: Alignment.bottomRight,
       )),
       child: const Center(
-        child: const TextStyles()
+        child: const TextStyles(),
         ),
     );
   }
