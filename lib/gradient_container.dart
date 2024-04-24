@@ -26,7 +26,7 @@ class GradientContaniner extends StatelessWidget {
         begin: Alignment.topLeft,
         end: Alignment.bottomRight,
       )),
-      child: const Center(
+      child:  Center(
         child: Image.asset("assets/images/dice-1.png"),
         ),
     );
