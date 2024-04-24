@@ -8,6 +8,13 @@ const endAlignment = Alignment.bottomRight;
 class GradientContaniner extends StatelessWidget {
   const GradientContaniner({super.key, required this.colors});
 
+  const GradientContaniner.colors()
+   : colors = const [
+    Colors.deepPurple, 
+    Colors.indigo
+    ];
+
+
   final List<Color> colors;
 
   @override
@@ -20,7 +27,7 @@ class GradientContaniner extends StatelessWidget {
         end: Alignment.bottomRight,
       )),
       child: const Center(
-        child: const TextStyles(),
+        child: Image.asset(name),
         ),
     );
   }
