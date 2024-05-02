@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:first_app/text_styles.dart';
+
+
 
 const startAlignment = Alignment.topLeft;
 const endAlignment = Alignment.bottomRight;
